@@ -12,3 +12,10 @@ A fun and interactive Streamlit app that detects faces in an uploaded image and 
 - Automatically detects all faces using OpenCV
 - Replaces faces with emojis using circular blending
 - Runs entirely in your browser with Streamlit
+
+## ▶️ Run locally
+
+```bash
+pip install -r requirements.txt
+streamlit run Face-emoji-swap.py
+```
