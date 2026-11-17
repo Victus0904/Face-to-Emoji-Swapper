@@ -1,4 +1,4 @@
-streamlit
-opencv-python
-numpy
-Pillow
+streamlit>=1.46
+opencv-python-headless>=4.8,<5  # 5.x moved Haar cascades out of the main package
+numpy>=1.24
+Pillow>=10.0
